@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f9f9;
+}
+
+:root{
+    --greycolor: #E5E7EB;
+    --orangecolor: #F15822;
+    --bluecolor: #0C4A6E;
+    --aquacolor: #169BA7;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+header nav img{
+    width: 20vw;
+    object-fit: contain;
+}
+
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 2rem;
+}
+
+header nav .right_nav button:nth-child(1){
+    background-color: var(--greycolor);
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 0 .5rem;
+    border-radius: 1rem;
+    color: var(--bluecolor);
+    font-weight: bold;
+}
+
+
+header nav .right_nav button:nth-child(2){
+    background-color: var(--orangecolor);
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 0 .5rem;
+    border-radius: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+header nav .middle_nav a{
+    font-size: 1rem;
+    color: #4b5563;
+    margin: 0.2rem;
+}
+
+/* beggining of banner section*/
+
+.banner{
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .leftside h2{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    text-align: center;
+
+}
+
+.banner .leftside h2 span:nth-child(1){
+    color: var(--orangecolor);
+}
+.banner .leftside h2 span:nth-child(2){
+    color: var(--bluecolor);
+}
+.banner .leftside h2 span:nth-child(3){
+    color: var(--aquacolor);
+}
+.banner .leftside h2 span:last-child{
+    color: var(--bluecolor);
+}
+
+.banner .rightside{
+    background-color: #fff;
+    box-shadow: 0 0 2px #fcfcfc;
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+
+.banner .rightside p{
+    color: var(--bluecolor);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.banner .rightside form div:nth-child(1){
+    background-color: var(--greycolor);
+    padding: .6rem;
+    margin: .5rem ;
+    border-radius: .6rem;
+}
+.banner .rightside form div:nth-child(1):active{
+   border: none;
+   outline: none;
+}
+.banner .rightside select{
+    width: 100%;
+    border: none;
+    background-color: var(--greycolor);
+    padding: .5rem;
+    margin: .5rem;
+}
